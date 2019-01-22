@@ -1,0 +1,39 @@
+apply plugin: 'java'
+apply plugin: 'jacoco'
+
+repositories {
+	mavenCentral()
+}
+
+test {
+	useJUnitPlatform()
+}
+
+sourceCompatibility = 1.10
+
+dependencies {
+    testCompile 'org.junit.jupiter:junit-jupiter-api:5.2.0'
+		testRuntime 'org.junit.jupiter:junit-jupiter-engine:5.2.0'
+		testRuntime 'org.junit.platform:junit-platform-console:1.2.0'
+}
+
+sourceSets.main.java.srcDirs = ['Sorts/src']
+sourceSets.test.java.srcDirs = ['Sorts/test']
+
+compileJava {
+  options.compilerArgs << "-Xlint:unchecked" << "-Xlint:deprecation" << "-Werror"
+}
+
+compileTestJava {
+  options.compilerArgs << "-Xlint:unchecked" << "-Xlint:deprecation" << "-Werror"
+}
+
+jacocoTestReport {
+	afterEvaluate {
+		classDirectories = files(classDirectories.files.collect {
+			fileTree(dir: it, exclude: '*/gui/**')
+		})
+	}
+}
+
+defaultTasks 'clean', 'test', 'jacocoTestReport'
