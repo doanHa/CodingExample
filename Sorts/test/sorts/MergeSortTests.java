@@ -1,4 +1,5 @@
 package sorts;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
@@ -7,8 +8,8 @@ import java.util.stream.Collectors;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class SortsTests {
-  private MergeSort mergeSort = new MergeSort();
+public class MergeSortTests {
+  MergeSort mergeSort = new MergeSort();
 
   @Test
   public void canary(){
@@ -16,13 +17,13 @@ public class SortsTests {
   }
 
   @Test
-  public void mergeNULLArray()
+  public void sortNULLArray()
   {
     assertEquals(null, mergeSort.sort(null, 0, 0));
   }
 
   @Test
-  public void mergeArrayWithNoElement()
+  public void sortArrayWithNoElement()
   {
     assertEquals(List.of(),
       Arrays.stream(mergeSort.sort(new int[]{}, 0, 0))
@@ -45,4 +46,5 @@ public class SortsTests {
         .boxed()
         .collect(Collectors.toList()));
   }
+
 }

@@ -1,6 +1,6 @@
 package sorts;
 
-public class MergeSort {
+public class MergeSort{
  public int[] sort(int[] unsortedList, int left, int right)
  {
     if(left < right) {
@@ -8,7 +8,6 @@ public class MergeSort {
 
       sort(unsortedList, left, middle);
       sort(unsortedList, middle + 1, right);
-
       merge(unsortedList, left, middle, right);
     }
     return unsortedList;
