@@ -1,14 +1,14 @@
 package sorts;
 
 public class MergeSort{
- public int[] sort(int[] unsortedList, int left, int right)
+ public int[] sort(int[] unsortedList, int low, int high)
  {
-    if(left < right) {
-      int middle = (left + right)/2;
+    if(low < high) {
+      int middle = (low + high)/2;
 
-      sort(unsortedList, left, middle);
-      sort(unsortedList, middle + 1, right);
-      merge(unsortedList, left, middle, right);
+      sort(unsortedList, low, middle);
+      sort(unsortedList, middle + 1, high);
+      merge(unsortedList, low, middle, high);
     }
     return unsortedList;
  }

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>MergeSort.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">CodingExample</a> &gt; <a href="index.source.html" class="el_package">sorts</a> &gt; <span class="el_source">MergeSort.java</span></div><h1>MergeSort.java</h1><pre class="source lang-java linenums">package sorts;
+
+<span class="fc" id="L3">public class MergeSort{</span>
+ public int[] sort(int[] unsortedList, int low, int high)
+ {
+<span class="fc bfc" id="L6" title="All 2 branches covered.">    if(low &lt; high) {</span>
+<span class="fc" id="L7">      int middle = (low + high)/2;</span>
+
+<span class="fc" id="L9">      sort(unsortedList, low, middle);</span>
+<span class="fc" id="L10">      sort(unsortedList, middle + 1, high);</span>
+<span class="fc" id="L11">      merge(unsortedList, low, middle, high);</span>
+    }
+<span class="fc" id="L13">    return unsortedList;</span>
+ }
+ public int[] merge (int[] unsortedList, int left, int middle, int right)
+ {
+<span class="fc" id="L17">   int leftArraySize = middle - left + 1;</span>
+<span class="fc" id="L18">   int rightArraySize = right - middle;</span>
+
+<span class="fc" id="L20">   int[] leftArray = new int[leftArraySize];</span>
+<span class="fc" id="L21">   int[] rightArray = new int[rightArraySize];</span>
+
+<span class="fc bfc" id="L23" title="All 2 branches covered.">   for(int i = 0;i &lt; leftArraySize; i++)</span>
+   {
+<span class="fc" id="L25">     leftArray[i] = unsortedList[left + i];</span>
+   }
+<span class="fc bfc" id="L27" title="All 2 branches covered.">   for(int i = 0; i &lt; rightArraySize; i++)</span>
+   {
+<span class="fc" id="L29">     rightArray[i] = unsortedList[middle + i + 1];</span>
+   }
+
+<span class="fc" id="L32">   int i = 0, j = 0, k = left;</span>
+<span class="fc bfc" id="L33" title="All 4 branches covered.">   while(i &lt; leftArraySize &amp;&amp; j &lt; rightArraySize){</span>
+<span class="fc bfc" id="L34" title="All 2 branches covered.">     if(leftArray[i] &lt; rightArray[j])</span>
+     {
+<span class="fc" id="L36">       unsortedList[k] = leftArray[i];</span>
+<span class="fc" id="L37">       i++;</span>
+     } else {
+<span class="fc" id="L39">       unsortedList[k] = rightArray[j];</span>
+<span class="fc" id="L40">       j++;</span>
+     }
+<span class="fc" id="L42">     k++;</span>
+   }
+<span class="fc bfc" id="L44" title="All 2 branches covered.">   if(i &lt; leftArraySize)</span>
+   {
+<span class="fc" id="L46">     unsortedList[k] = leftArray[i];</span>
+<span class="fc" id="L47">     i++;</span>
+<span class="fc" id="L48">     k++;</span>
+   }
+<span class="fc bfc" id="L50" title="All 2 branches covered.">   if(j &lt; rightArraySize)</span>
+   {
+<span class="fc" id="L52">     unsortedList[k] = rightArray[j];</span>
+<span class="fc" id="L53">     j++;</span>
+<span class="fc" id="L54">     k++;</span>
+   }
+<span class="fc" id="L56">   return unsortedList;</span>
+ }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.1.201803210924</span></div></body></html>

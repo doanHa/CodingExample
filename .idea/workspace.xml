@@ -2,13 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3e88a48-770b-4544-8786-10a61177a13e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sorts/src/sorts/SortAlgorithm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sorts/Sorts.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Sorts/Sorts.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sorts/src/sorts/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sorts/src/sorts/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sorts/test/sorts/SortsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sorts/test/sorts/SortsTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sorts/sorts/MergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sorts/sorts/MergeSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Sorts/sorts/SortsTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sorts/src/sorts/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sorts/src/sorts/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sorts/test/sorts/MergeSortTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sorts/test/sorts/MergeSortTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sorts/test/sorts/QuickSortTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sorts/test/sorts/QuickSortTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/sorts/SortAlgorithm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/sorts/SortsTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jacoco/test.exec" beforeDir="false" afterPath="$PROJECT_DIR$/build/jacoco/test.exec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/jacoco/test/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/jacoco/test/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/jacoco/test/html/jacoco-sessions.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/jacoco/test/html/jacoco-sessions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/sorts.SortsTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/sorts.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/sorts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-sorts.SortsTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sorts/sorts/MergeSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sorts/sorts/SortAlgorithm.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,18 +42,28 @@
     <SUITE FILE_PATH="coverage/CodingExample$SortsTests.exec" NAME="SortsTests Coverage Results" MODIFIED="1548166666804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="jacoco" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>sorts.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/CodingExample$MergeSortTests_and_1_more.ic" NAME="MergeSortTests and 1 more Coverage Results" MODIFIED="1548169181250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/CodingExample$SortsTests_canary.exec" NAME="SortsTests.canary Coverage Results" MODIFIED="1548108537279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="jacoco" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>sorts.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/CodingExample$SortsTests.ic" NAME="SortsTests Coverage Results" MODIFIED="1548166629652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>sorts.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/CodingExample$QuickSortTests.ic" NAME="QuickSortTests Coverage Results" MODIFIED="1548167717122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>sorts.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/CodingExample$QuickSortTests.exec" NAME="QuickSortTests Coverage Results" MODIFIED="1548169110132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="jacoco" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>sorts.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/CodingExample$MergeSortTests.exec" NAME="MergeSortTests Coverage Results" MODIFIED="1548166745433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="jacoco" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>sorts.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/CodingExample$MergeSortTests_and_1_more.exec" NAME="MergeSortTests and 1 more Coverage Results" MODIFIED="1548169241330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="jacoco" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>sorts.*</FILTER>
     </SUITE>
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="113" />
+    <option name="myElementSize" value="124" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="574115294">
@@ -46,70 +77,39 @@
         <counts>
           <entry key="gradle" value="1" />
           <entry key="gradlew" value="1" />
-          <entry key="java" value="6" />
+          <entry key="java" value="9" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Groovy" value="1" />
-          <entry key="JAVA" value="6" />
+          <entry key="JAVA" value="9" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gradle" value="14" />
-          <entry key="java" value="3760" />
+          <entry key="java" value="4785" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="14" />
-          <entry key="JAVA" value="3760" />
+          <entry key="JAVA" value="4785" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Sorts/test/sorts/SortsTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sorts/src/sorts/MergeSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -129,9 +129,11 @@
       <list>
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/Sorts/src/sorts/SortAlgorithm.java" />
-        <option value="$PROJECT_DIR$/Sorts/test/sorts/MergeSortTests.java" />
         <option value="$PROJECT_DIR$/Sorts/test/sorts/SortsTests.java" />
+        <option value="$PROJECT_DIR$/Sorts/test/sorts/MergeSortTests.java" />
         <option value="$PROJECT_DIR$/Sorts/src/sorts/MergeSort.java" />
+        <option value="$PROJECT_DIR$/Sorts/src/sorts/QuickSort.java" />
+        <option value="$PROJECT_DIR$/Sorts/test/sorts/QuickSortTests.java" />
       </list>
     </option>
   </component>
@@ -202,7 +204,7 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548166742756" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548176207184" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -219,7 +221,27 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.MergeSortTests and 1 more">
+    <configuration name="MergeSortTests and 1 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sorts" />
+      <extension name="coverage" runner="jacoco">
+        <pattern>
+          <option name="PATTERN" value="sorts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="pattern" />
+      <option name="PARAMETERS" value="" />
+      <patterns>
+        <pattern testClass="sorts.MergeSortTests" />
+        <pattern testClass="sorts.QuickSortTests" />
+      </patterns>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MergeSortTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Sorts" />
       <extension name="coverage" runner="jacoco">
@@ -236,8 +258,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="QuickSortTests" type="JUnit" factoryName="JUnit">
+      <module name="Sorts" />
+      <extension name="coverage" runner="jacoco">
+        <pattern>
+          <option name="PATTERN" value="sorts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sorts" />
+      <option name="MAIN_CLASS_NAME" value="sorts.QuickSortTests " />
+      <option name="METHOD_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.QuickSortTests" />
+      <item itemvalue="JUnit.MergeSortTests" />
+      <item itemvalue="JUnit.MergeSortTests and 1 more" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MergeSortTests and 1 more" />
         <item itemvalue="JUnit.MergeSortTests" />
       </list>
     </recent_temporary>
@@ -256,35 +300,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SortsTests - 2019.01.21 at 17h 08m 24s.xml">
+    <history-entry file="SortsTests - 2019.01.22 at 08h 17m 49s.xml">
       <configuration name="SortsTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SortsTests - 2019.01.21 at 17h 31m 39s.xml">
-      <configuration name="SortsTests" configurationId="JUnit" />
+    <history-entry file="MergeSortTests - 2019.01.22 at 08h 19m 07s.xml">
+      <configuration name="MergeSortTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SortsTests - 2019.01.21 at 17h 35m 09s.xml">
-      <configuration name="SortsTests" configurationId="JUnit" />
+    <history-entry file="QuickSortTests - 2019.01.22 at 08h 35m 34s.xml">
+      <configuration name="QuickSortTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SortsTests - 2019.01.21 at 17h 35m 40s.xml">
-      <configuration name="SortsTests" configurationId="JUnit" />
+    <history-entry file="QuickSortTests - 2019.01.22 at 08h 38m 17s.xml">
+      <configuration name="QuickSortTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SortsTests - 2019.01.21 at 17h 35m 53s.xml">
-      <configuration name="SortsTests" configurationId="JUnit" />
+    <history-entry file="QuickSortTests - 2019.01.22 at 08h 38m 52s.xml">
+      <configuration name="QuickSortTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SortsTests_mergeNULLArray - 2019.01.21 at 17h 37m 51s.xml">
-      <configuration name="SortsTests.mergeNULLArray" configurationId="JUnit" />
+    <history-entry file="QuickSortTests - 2019.01.22 at 08h 55m 51s.xml">
+      <configuration name="QuickSortTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SortsTests - 2019.01.21 at 17h 38m 09s.xml">
-      <configuration name="SortsTests" configurationId="JUnit" />
+    <history-entry file="QuickSortTests - 2019.01.22 at 08h 56m 23s.xml">
+      <configuration name="QuickSortTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SortsTests - 2019.01.21 at 18h 01m 01s.xml">
-      <configuration name="SortsTests" configurationId="JUnit" />
+    <history-entry file="QuickSortTests - 2019.01.22 at 08h 58m 32s.xml">
+      <configuration name="QuickSortTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SortsTests - 2019.01.21 at 18h 01m 15s.xml">
-      <configuration name="SortsTests" configurationId="JUnit" />
+    <history-entry file="MergeSortTests_and_1_more - 2019.01.22 at 08h 59m 51s.xml">
+      <configuration name="MergeSortTests and 1 more" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SortsTests - 2019.01.21 at 18h 01m 44s.xml">
-      <configuration name="SortsTests" configurationId="JUnit" />
+    <history-entry file="MergeSortTests_and_1_more - 2019.01.22 at 09h 00m 43s.xml">
+      <configuration name="MergeSortTests and 1 more" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -300,10 +344,10 @@
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" visible="true" weight="0.32923076" />
+      <window_info anchor="bottom" id="Messages" weight="0.3276923" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32923076" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3276923" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -362,13 +406,6 @@
     <entry file="file://$PROJECT_DIR$/build/contents.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gradlew">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-765" />
@@ -386,18 +423,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Sorts/src/sorts/MergeSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        <state relative-caret-position="238">
+          <caret line="14" column="72" selection-start-line="14" selection-start-column="72" selection-end-line="14" selection-end-column="72" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sorts/test/sorts/SortsTests.java">
+    <entry file="file://$PROJECT_DIR$/Sorts/test/sorts/QuickSortTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="236">
+          <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sorts/src/sorts/QuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sorts/test/sorts/MergeSortTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
         </state>
       </provider>
     </entry>
