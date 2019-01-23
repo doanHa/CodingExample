@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3e88a48-770b-4544-8786-10a61177a13e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Tree/Tree.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sorts/src/sorts/HeapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sorts/src/sorts/HeapSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sorts/src/sorts/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sorts/src/sorts/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sorts/src/sorts/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sorts/src/sorts/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sorts/src/sorts/RadixSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sorts/src/sorts/RadixSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sorts/test/sorts/HeapSortTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sorts/test/sorts/HeapSortTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,12 +43,12 @@
     <SUITE FILE_PATH="coverage/CodingExample$RadixSortTests.ic" NAME="RadixSortTests Coverage Results" MODIFIED="1548212742264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>sorts.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/CodingExample$MergeSortTests_and_3_more.exec" NAME="MergeSortTests and 3 more Coverage Results" MODIFIED="1548265242825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="jacoco" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/CodingExample$MergeSortTests_and_3_more.exec" NAME="MergeSortTests and 3 more Coverage Results" MODIFIED="1548265782775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="jacoco" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>sorts.*</FILTER>
     </SUITE>
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="76" />
+    <option name="myElementSize" value="74" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="574115294">
@@ -62,28 +60,28 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="gradle" value="1" />
+          <entry key="gradle" value="2" />
           <entry key="gradlew" value="1" />
-          <entry key="java" value="27" />
+          <entry key="java" value="28" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Groovy" value="1" />
-          <entry key="JAVA" value="27" />
+          <entry key="Groovy" value="2" />
+          <entry key="JAVA" value="28" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="gradle" value="14" />
+          <entry key="gradle" value="25" />
           <entry key="java" value="10751" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Groovy" value="14" />
+          <entry key="Groovy" value="25" />
           <entry key="JAVA" value="10751" />
         </counts>
       </usages-collector>
@@ -92,10 +90,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Sorts/src/sorts/RadixSort.java">
+        <entry file="file://$PROJECT_DIR$/Tree/src/SimpleTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="42" column="60" selection-start-line="42" selection-start-column="60" selection-end-line="42" selection-end-column="60" />
+            <state>
+              <caret column="23" selection-start-column="23" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -124,7 +122,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/Sorts/src/sorts/SortAlgorithm.java" />
         <option value="$PROJECT_DIR$/Sorts/test/sorts/SortsTests.java" />
         <option value="$PROJECT_DIR$/Sorts/test/sorts/QuickSortTests.java" />
@@ -137,6 +134,7 @@
         <option value="$PROJECT_DIR$/Sorts/src/sorts/Programmers.java" />
         <option value="$PROJECT_DIR$/Sorts/src/sorts/QuickSort.java" />
         <option value="$PROJECT_DIR$/Sorts/src/sorts/RadixSort.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
       </list>
     </option>
   </component>
@@ -178,28 +176,13 @@
             <path>
               <item name="CodingExample" type="b2602c69:ProjectViewProjectNode" />
               <item name="CodingExample" type="462c0819:PsiDirectoryNode" />
-              <item name="Sorts" type="462c0819:PsiDirectoryNode" />
+              <item name="Tree" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CodingExample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodingExample" type="462c0819:PsiDirectoryNode" />
+              <item name="Tree" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CodingExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodingExample" type="462c0819:PsiDirectoryNode" />
-              <item name="Sorts" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sorts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CodingExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodingExample" type="462c0819:PsiDirectoryNode" />
-              <item name="Sorts" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CodingExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodingExample" type="462c0819:PsiDirectoryNode" />
-              <item name="Sorts" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="sorts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -214,7 +197,7 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548265236935" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548269385671" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -311,9 +294,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MergeSortTests_and_3_more - 2019.01.23 at 09h 23m 39s.xml">
-      <configuration name="MergeSortTests and 3 more" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MergeSortTests_and_3_more - 2019.01.23 at 09h 25m 11s.xml">
       <configuration name="MergeSortTests and 3 more" configurationId="JUnit" />
     </history-entry>
@@ -341,10 +321,12 @@
     <history-entry file="MergeSortTests_and_3_more - 2019.01.23 at 11h 40m 47s.xml">
       <configuration name="MergeSortTests and 3 more" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MergeSortTests_and_3_more - 2019.01.23 at 11h 49m 46s.xml">
+      <configuration name="MergeSortTests and 3 more" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -430,13 +412,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Sorts/src/sorts/Sort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -510,8 +485,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Sorts/src/sorts/RadixSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
+        <state relative-caret-position="714">
           <caret line="42" column="60" selection-start-line="42" selection-start-column="60" selection-end-line="42" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tree/src/SimpleTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" selection-start-column="23" selection-end-column="23" />
         </state>
       </provider>
     </entry>

@@ -17,8 +17,8 @@ dependencies {
 		testRuntime 'org.junit.platform:junit-platform-console:1.2.0'
 }
 
-sourceSets.main.java.srcDirs = ['Sorts/src']
-sourceSets.test.java.srcDirs = ['Sorts/test']
+sourceSets.main.java.srcDirs = ['Tree/src']
+sourceSets.test.java.srcDirs = ['Tree/test']
 
 compileJava {
   options.compilerArgs << "-Xlint:unchecked" << "-Xlint:deprecation" << "-Werror"
