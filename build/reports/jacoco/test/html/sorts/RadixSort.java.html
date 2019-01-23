@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>RadixSort.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">CodingExample</a> &gt; <a href="index.source.html" class="el_package">sorts</a> &gt; <span class="el_source">RadixSort.java</span></div><h1>RadixSort.java</h1><pre class="source lang-java linenums">package sorts;
+
+import java.util.Arrays;
+
+<span class="fc" id="L5">public class RadixSort {</span>
+  public int[] sort(int[] unsortedList, int listSize) {
+<span class="fc bfc" id="L7" title="All 2 branches covered.">    if(unsortedList != null){</span>
+<span class="fc" id="L8">      int max = getMax(unsortedList, listSize);</span>
+
+<span class="fc bfc" id="L10" title="All 2 branches covered.">      for (int exp = 1; (max / exp) &gt; 0; exp *= 10) {</span>
+<span class="fc" id="L11">        countSort(unsortedList, listSize, exp);</span>
+      }
+    }
+
+<span class="fc" id="L15">    return unsortedList;</span>
+  }
+
+  private int getMax(int[] unsortedList, int listSize) {
+<span class="fc" id="L19">    int currentMax = unsortedList[0];</span>
+<span class="fc bfc" id="L20" title="All 2 branches covered.">    for (int i = 1; i &lt; listSize; i++) {</span>
+<span class="fc bfc" id="L21" title="All 2 branches covered.">      if (unsortedList[i] &gt; currentMax)</span>
+<span class="fc" id="L22">        currentMax = unsortedList[i];</span>
+    }
+<span class="fc" id="L24">    return currentMax;</span>
+  }
+
+  public void countSort(int[] unsortedList, int listSize, int exp){
+<span class="fc" id="L28">    int output[] = new int[listSize];</span>
+    int i;
+<span class="fc" id="L30">    int count[] = new int[10];</span>
+<span class="fc" id="L31">    Arrays.fill(count, 0);</span>
+
+<span class="fc bfc" id="L33" title="All 2 branches covered.">    for(i = 0; i &lt; listSize; i++)</span>
+<span class="fc" id="L34">      count[(unsortedList[i]/exp)%10]++;</span>
+
+<span class="fc bfc" id="L36" title="All 2 branches covered.">    for(i = 1; i &lt; 10; i++)</span>
+<span class="fc" id="L37">      count[i] += count[i - 1];</span>
+
+<span class="fc bfc" id="L39" title="All 2 branches covered.">    for(i = listSize - 1; i &gt;= 0; i--){</span>
+<span class="fc" id="L40">      output[count[(unsortedList[i]/exp)%10] - 1] = unsortedList[i];</span>
+<span class="fc" id="L41">      count[(unsortedList[i]/exp)%10]--;</span>
+    }
+
+<span class="fc bfc" id="L44" title="All 2 branches covered.">    for(i = 0; i &lt; listSize; i++){</span>
+<span class="fc" id="L45">      unsortedList[i] = output[i];</span>
+    }
+<span class="fc" id="L47">  }</span>
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.1.201803210924</span></div></body></html>
