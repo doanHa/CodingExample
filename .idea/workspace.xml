@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3e88a48-770b-4544-8786-10a61177a13e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/InterestingExample/src/Example_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/InterestingExample/src/Example_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/InterestingExample/src/Example_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/InterestingExample/src/Example_4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodingExample.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CodingExample.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tree/src/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tree/src/BinarySearchTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tree/src/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tree/src/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingExample/src/Example_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/InterestingExample/src/Example_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingExample/Example_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingExample/Example_2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tree/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tree/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tree/SimpleBinaryTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Tree/SimpleBinaryTreeTests.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -76,20 +78,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/InterestingExample/src/Example_1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/InterestingExample/src/Example_2.java">
+        <entry file="file://$PROJECT_DIR$/InterestingExample/src/Example_4.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+            <state relative-caret-position="30">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -132,6 +128,8 @@
         <option value="$PROJECT_DIR$/Tree/src/BinarySearchTree.java" />
         <option value="$PROJECT_DIR$/InterestingExample/src/Example_1.java" />
         <option value="$PROJECT_DIR$/InterestingExample/src/Example_2.java" />
+        <option value="$PROJECT_DIR$/InterestingExample/src/Example_3.java" />
+        <option value="$PROJECT_DIR$/InterestingExample/src/Example_4.java" />
       </list>
     </option>
   </component>
@@ -141,7 +139,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="672" />
     <option name="y" value="64" />
     <option name="width" value="697" />
@@ -200,7 +198,7 @@
     <property name="Repository.Attach.Annotations" value="true" />
     <property name="Repository.Attach.JavaDocs" value="true" />
     <property name="Repository.Attach.Sources" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548724601706" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548738953486" />
     <property name="last_opened_file_path" value="E:/Git/bin/git.exe" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -219,7 +217,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Example_2">
+  <component name="RunManager" selected="Application.Example_3">
     <configuration name="Example_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Example_1" />
       <module name="CodingExample" />
@@ -229,6 +227,13 @@
     </configuration>
     <configuration name="Example_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Example_2" />
+      <module name="CodingExample" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Example_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Example_3" />
       <module name="CodingExample" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -258,6 +263,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Example_3" />
         <item itemvalue="Application.Example_2" />
         <item itemvalue="Application.Example_1" />
         <item itemvalue="JUnit.HeapSortTests and 3 more" />
@@ -309,11 +315,20 @@
       <configuration name="HeapSortTests and 3 more" configurationId="JUnit" />
     </history-entry>
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18283582" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18283582" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -322,12 +337,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.31671858" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.31671858" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32917964" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32917964" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50075644" side_tool="true" weight="0.31692308" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3271028" />
@@ -470,13 +485,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tree/src/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/InterestingExample/src/Example_1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -486,8 +494,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/InterestingExample/src/Example_2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+        <state relative-caret-position="45">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InterestingExample/src/Example_3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="98" selection-start-line="2" selection-start-column="98" selection-end-line="2" selection-end-column="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tree/src/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InterestingExample/src/Example_4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
