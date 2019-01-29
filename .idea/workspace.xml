@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b3e88a48-770b-4544-8786-10a61177a13e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/InterestingExample/src/Example_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/InterestingExample/src/Example_4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InterestingExample/src/Example_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/InterestingExample/src/Example_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingExample/Example_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingExample/Example_2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tree/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tree/Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tree/SimpleBinaryTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Tree/SimpleBinaryTreeTests.class" beforeDir="false" />
-    </list>
+    <list default="true" id="b3e88a48-770b-4544-8786-10a61177a13e" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -81,8 +72,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/InterestingExample/src/Example_4.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="165">
+              <caret line="11" column="94" lean-forward="true" selection-start-line="11" selection-start-column="94" selection-end-line="11" selection-end-column="94" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -139,7 +130,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="672" />
     <option name="y" value="64" />
     <option name="width" value="697" />
@@ -198,7 +189,7 @@
     <property name="Repository.Attach.Annotations" value="true" />
     <property name="Repository.Attach.JavaDocs" value="true" />
     <property name="Repository.Attach.Sources" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548738953486" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548741310984" />
     <property name="last_opened_file_path" value="E:/Git/bin/git.exe" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -325,7 +316,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18283582" />
@@ -515,8 +506,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/InterestingExample/src/Example_4.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="165">
+          <caret line="11" column="94" lean-forward="true" selection-start-line="11" selection-start-column="94" selection-end-line="11" selection-end-column="94" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
