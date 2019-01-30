@@ -47,7 +47,7 @@ public class FindTargetSumInArray {
 
   public static void main(String[] args) {
     int[] numbers = new int[]{4, 16, 9, 1, 3, 25};
-    int target = 32;
+    int target = 38;
     contiguousSum(numbers, target);
     //result = contiguousSum(numbers, target);
     //System.out.println(result);
